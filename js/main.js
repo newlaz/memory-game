@@ -8,7 +8,7 @@ let movements = 0;
 let successes = 0;
 let timerClock = false;
 let intervalTimer = null;
-let timer = 30;
+let timer = 45;
 let initialTime = timer;
 
 // Selecting element from DOM
