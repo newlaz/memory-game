@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Desafia tu memoria!</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="element--center">
+    <main class="main element--center">
+        <button id="restart" class="main__btn-restart element--center" onclick="location.reload()">
+            <div class="main__btn-line main__btn-line--45"></div>
+            <div class="main__btn-line main__btn-line--invisible"></div>
+            <div class="main__btn-line main__btn-line--45neg"></div>
+        </button>
+        <section class="game__screen element--center">
+            <h1 class="game__title element--center">
+                Juego de Memoria
+            </h1>
+            <div class="game__buttons">
+                <button onclick="showCard(0)" class="game__button" id="0"></button>
+                <button onclick="showCard(1)" class="game__button" id="1"></button>
+                <button onclick="showCard(2)" class="game__button" id="2"></button>
+                <button onclick="showCard(3)" class="game__button" id="3"></button>
+                <button onclick="showCard(4)" class="game__button" id="4"></button>
+                <button onclick="showCard(5)" class="game__button" id="5"></button>
+                <button onclick="showCard(6)" class="game__button" id="6"></button>
+                <button onclick="showCard(7)" class="game__button" id="7"></button>
+                <button onclick="showCard(8)" class="game__button" id="8"></button>
+                <button onclick="showCard(9)" class="game__button" id="9"></button>
+                <button onclick="showCard(10)" class="game__button" id="10"></button>
+                <button onclick="showCard(11)" class="game__button" id="11"></button>
+                <button onclick="showCard(12)" class="game__button" id="12"></button>
+                <button onclick="showCard(13)" class="game__button" id="13"></button>
+                <button onclick="showCard(14)" class="game__button" id="14"></button>
+                <button onclick="showCard(15)" class="game__button" id="15"></button>
+            </div>
+
+        </section>
+        <section class="game__stats element--center">
+            <div id="successes" class="game__stat element--center">
+                Aciertos
+            </div>
+            <div id="time-remaining" class="game__stat element--center">
+                Tiempo
+            </div>
+            <div id="total-movements" class="game__stat element--center">
+                Movimientos
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Code by <a href="#" class="footer__link">Bryan Lazo</a></p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
