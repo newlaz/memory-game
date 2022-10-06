@@ -30,6 +30,7 @@ body {
     gap: 1em;
     width: 80%;
     max-width: 800px;
+    margin-block: 1em;
     padding: 1em;
     border-radius: .5em;
     background-color: var(--light-color);
